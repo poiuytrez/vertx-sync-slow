@@ -7,7 +7,7 @@ $ docker run -p 6379:6379 redis
 Do not forget specify the java agent paramer while launching the jvm:
 -javaagent:/path/to/quasar/core/quasar-core.jar
 
-Uncomment testCallBack to test the traditional callback style
+Uncomment testCallBack to test the traditional callback style  
 Uncomment testSync to test the vert.x sync style
 
 Vert.x sync seems to be 10 times slower.
